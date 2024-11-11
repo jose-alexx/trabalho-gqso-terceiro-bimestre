@@ -2,6 +2,7 @@ Trabalho terceiro bimestre de Gestão de qualidade de Software
 
 https://git-scm.com/docs/git-rebase
 https://git-scm.com/book/pt-br/v2/Branches-no-Git-Rebase
+https://www.atlassian.com/br/git/tutorials/using-branches/git-merge#:~:text=Como%20funciona&text=Nestes%20cen%C3%A1rios%2C%20o%20git%20merge,sequ%C3%AAncia%20de%20merge%20commit%20enfileirada.
 
 Basicamente o git merge e o git rebase servem para a mesma coisa: mesclar alterações de duas branches diferentes.
 
