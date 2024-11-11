@@ -12,4 +12,4 @@ Já o rebase deixa o histórico linear e mais simples, mas alguns commits são r
 Cuidado com rebase, você pode ter que forçar a reescrita para enviar as modificações, e com isso outros contribuidores podem ter conflitos quando tentarem enviar seus commits para a "nova" branch reescrita.
 
 
-Alex passou por aqui
+Alex passou por aquidssffefe
