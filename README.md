@@ -5,9 +5,8 @@ O [**merge**](https://git-scm.com/docs/git-merge) e o [**rebase**](https://git-s
 <br>
 
  <a href="https://github.com/jose-alexx">
-    <img align="center" src="https://raw.githubusercontent.com/gist/alexx-pereira/86291df18d3daccdff4f0cab7a962163/raw/6fa04ae4f3e78ec957df70a04cd65e6fd1758761/alex-perfil.svg" ">
+    <img align="center" src="https://gist.github.com/jose-alexx/46db7915f5fcea4e0a93a27e3879dbff.js">
   </a> 
----
 
 ## **O que é Merge?**
 
