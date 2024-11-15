@@ -1,6 +1,4 @@
-# Git Merge e Rebase
-
-<p align="justify"> O <a href="https://git-scm.com/docs/git-merge"><strong>merge</strong></a> e o <a href="https://git-scm.com/docs/git-rebase"><strong>rebase</strong></a> são dois comandos do Git usados para combinar mudanças de diferentes ramificações (<a href="https://git-scm.com/book/pt-br/v2/Branches-no-Git-Branches-em-poucas-palavras">branches</a>). Ambos têm o mesmo objetivo geral — <strong>integrar alterações</strong> —, mas funcionam de maneiras distintas, resultando em diferentes históricos de commits. </p>
+<p align="justify"> O <a href="https://git-scm.com/docs/git-merge"><strong>merge</strong></a> e o <a href="https://git-scm.com/docs/git-rebase"><strong>rebase</strong></a> são dois comandos do Git usados para combinar mudanças de diferentes ramificações (branches). Ambos têm o mesmo objetivo geral — <strong>integrar alterações</strong> —, mas funcionam de maneiras distintas, resultando em diferentes históricos de commits. </p>
 
 --- 
 
@@ -8,7 +6,9 @@
     <img align="center" src="https://raw.githubusercontent.com/gist/jose-alexx/46db7915f5fcea4e0a93a27e3879dbff/raw/2e041a4a617fc224827786d5a57d11dd49391af7/apresentacao-merge-rebase.svg">
   </a> 
 
-## **O que é Merge?**
+
+<details align="left">
+  <summary color="#FFBD59">O que é Merge?</summary> <br>
 
 O **merge** combina as mudanças de uma branch em outra, criando um **commit de merge** que une os históricos das branches. Ele preserva o histórico completo de ambas as branches.
 
@@ -17,18 +17,26 @@ main:     A --- B --- M
                   \     
 feature-branch:     C --- D
 ```
+</details>
+
 ---
 
-## **O que é Rebase?**
+<details align="left">
+  <summary color="#FFBD59">O que é Rebase?</summary> <br>
 
-O **rebase** reaplica os commits de uma branch no topo de outra, criando um histórico linear. Ele reescreve os commits da branch atual.
+  O **rebase** reaplica os commits de uma branch no topo de outra, criando um histórico linear. Ele reescreve os commits da branch atual.
 
 ```plaintext
 main:     A --- B
                 \
 feature-branch:   C --- D
 ```
+</details>
+
 ---
+
+
+
 <br> <br>
 
 
