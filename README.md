@@ -1,73 +1,148 @@
-<p align="justify"> O <a href="https://git-scm.com/docs/git-merge"><strong>merge</strong></a> e o <a href="https://git-scm.com/docs/git-rebase"><strong>rebase</strong></a> são dois comandos do Git usados para combinar mudanças de diferentes ramificações (branches). Ambos têm o mesmo objetivo geral — <strong>integrar alterações</strong> —, mas funcionam de maneiras distintas, resultando em diferentes históricos de commits. </p>
+## **Git Merge e Rebase**
 
---- 
-
- <a href="https://github.com/jose-alexx">
-    <img align="center" src="https://raw.githubusercontent.com/gist/jose-alexx/46db7915f5fcea4e0a93a27e3879dbff/raw/2e041a4a617fc224827786d5a57d11dd49391af7/apresentacao-merge-rebase.svg">
-  </a> 
-
-<br> <br>
-
-<details align="left">
-  <summary color="#FFBD59">O que é Merge?</summary>
-
-  - O **merge** combina as mudanças de uma branch em outra, criando um **commit de merge** que une os históricos das branches. Ele preserva o histórico completo de ambas as branches.
-
-  - ```plaintext
-  main:     A --- B --- M
-                  \     
-  feature-branch:     C --- D
-  ```
-</details>
+<div align="center">
+  <table>
+    <tr>
+      <td><b>💻 O que é merge?  </b></td>
+      <td><b>💻 O que é rebase? </b></td>
+    </tr>
+    <tr>
+      <td>O Merge combina as mudanças de uma branch (feature-branch) em outra (main), assim o Git cria um commit especial chamado  **commit de merge** que une os históricos das duas branches. Ele preserva o histórico completo de ambas as branches.</td>
+      <td>O Rebase reaplica os commits de uma branch (feature-branch) no topo de outra branch (main), criando um histórico linear. Ele reescreve os commits da branch atual.</td>
+    </tr>
+  </table>
+</div>
 
 ---
 
 <details align="left">
-  <summary color="#FFBD59">O que é Rebase?</summary>
+  <summary color="#FFBD59">Semelhança...</summary>
+ 
+ <p align="justify">
 
-  - O **rebase** reaplica os commits de uma branch no topo de outra, criando um histórico linear. Ele reescreve os commits da branch atual.
-
-  - ```plaintext
-  main:     A --- B
-                \
-  feature-branch:   C --- D
-  ```
-</details>
+ <ul>
+  <li>O <a href="https://git-scm.com/docs/git-merge"><strong>Merge</strong></a> e o <a href="https://git-scm.com/docs/git-rebase"><strong>Rebase</strong></a> são dois comandos do Git usados para combinar mudanças de diferentes ramificações (branches).</li>
+  <li>Ambos têm o mesmo objetivo geral — <strong>integrar alterações</strong> —, mas funcionam de maneiras distintas, resultando em diferentes históricos de commits.</li>
+  <li>Basicamente o git merge e o git rebase servem para a mesma coisa: mesclar alterações de duas branches diferentes.</li>
+ </ul>
+</p>
 
 ---
 
+</details>
 
+<details align="left">
+  <summary style="color: #FFBD59">Diferenças entre Merge e Rebase...</summary> <br>
 
-<br> <br>
+  <div align="center">
+    <table style="width: 100%; border-collapse: collapse;">
+      <tr>
+        <td><b>Aspecto</b></td>
+        <td><b>Merge</b></td>
+        <td><b>Rebase</b></td>
+      </tr>
+      <tr>
+        <td>Histórico</td>
+        <td>Preserva o histórico original com um commit de merge.</td>
+        <td>Reescreve o histórico para ser linear.</td>
+      </tr>
+      <tr>
+        <td>Conflitos</td>
+        <td>Resolvidos no commit de merge.</td>
+        <td>Resolvidos durante o rebase.</td>
+      </tr>
+      <tr>
+        <td>Colaboração</td>
+        <td>Ideal para trabalho em equipe.</td>
+        <td>Ideal para trabalho individual.</td>
+      </tr>
+    </table>
+  </div>
 
+  ---
+  
+</details>
 
-<ul>
+<details align="left">
+  <summary color="#FFBD59">Antes e depois do Merge e Rebase...</summary> <br>
+
+ ```plaintext
+
+-------- Merge --------              | ## Preserva o histórico das branches.
+                                     |
+  main:     A --- B                  | main:     A --- B --- E
+                   \                 |                  \   
+  feature-branch:    C --- D         | feature-branch:    C --- D
+
+---------------------------------------------------------------------------
+
+-------- Rebase --------             | ## histórico linear
+                                     |
+  main:     A --- B                  | 
+                   \                 | main:     A --- B --- C' --- D'
+  feature-branch:    C --- D         |
+```
+
+  <ul>
   <li><strong>Merge:</strong> Cria um <em>commit de merge</em> que une os históricos das branches.</li>
   <li><strong>Rebase:</strong> Reescreve o histórico, reaplicando os commits no topo de outra branch.</li>
 </ul>
 
-<p align="justify">
+---
+
+</details>
+
+<details align="left">
+  <summary color="#FFBD59">Quando Usar Merge ou Rebase?...</summary> <br>
+
+  <p align="justify">
 Ao decidir entre usar <strong>merge</strong> ou <strong>rebase</strong>, considere o fluxo de trabalho do projeto e as preferências de histórico. Por exemplo, o <code>merge</code> é ideal para trabalho em equipe, enquanto o <code>rebase</code> é ótimo para um histórico mais limpo.
 </p>
 
+--- 
 
-Trabalho terceiro bimestre de Gestão de qualidade de Software
+ - **Use Merge quando:**
+   - O merge, na maioria das vezes, gera um novo commit, o que pode complicar o histórico, mas nunca o reescreve. (mas é mais seguro)
+   - Está colaborando com outras pessoas e quer manter o histórico detalhado.
+   - Não se importa com um histórico mais complexo.
+   - Você quer preservar o histórico completo.
 
-https://git-scm.com/book/pt-br/v2/Branches-no-Git-Rebase
-https://www.atlassian.com/br/git/tutorials/using-branches/git-merge#:~:text=Como%20funciona&text=Nestes%20cen%C3%A1rios%2C%20o%20git%20merge,sequ%C3%AAncia%20de%20merge%20commit%20enfileirada.
-https://www.atlassian.com/br/git/tutorials/rewriting-history/git-rebase
+---
 
-Basicamente o git merge e o git rebase servem para a mesma coisa: mesclar alterações de duas branches diferentes.
+- **Use Rebase quando:**
+   - Cuidado com rebase, você pode ter que forçar a reescrita para enviar as modificações, e com isso outros contribuidores podem ter conflitos quando tentarem enviar seus commits para a "nova" branch reescrita.
+   - Já o rebase deixa o histórico linear e mais simples, mas alguns commits são reescritos, é muito útil para não “sujar” o histórico do repositório (mas possui mais riscos).
+   - Quer aplicar mudanças da branch base antes de compartilhar seu trabalho.
+   - Está trabalhando sozinho ou em branches que ninguém mais usa.
+   - Você quer um histórico linear e limpo.
+ 
+---
 
-O merge, na maioria das vezes, gera um novo commit, o que pode complicar o histórico, mas nunca o reescreve. (mas é mais seguro)
+</details>
 
-Já o rebase deixa o histórico linear e mais simples, mas alguns commits são reescritos, é muito útil para não “sujar” o histórico do repositório (mas possui mais riscos).
+<details align="left">
+  <summary color="#FFBD59">Comandos...</summary> <br>
 
-Cuidado com rebase, você pode ter que forçar a reescrita para enviar as modificações, e com isso outros contribuidores podem ter conflitos quando tentarem enviar seus commits para a "nova" branch reescrita.
+ <div align="center">
 
-Alex passou por aquidssffefe
-tesrte
-olá
-Hello World
-TESTANDO
-cachorro
+| **Ação**               | **Merge**                       | **Rebase**                       |
+|-------------------------|----------------------------------|-----------------------------------|
+| Trocar para a branch base | `git checkout main`             | `git checkout feature-branch`            |
+| Atualizar a branch base  | `git pull origin main`          | `git pull origin main`            |
+| Combinar as branches     | `git merge feature-branch`             | `git rebase main`                 |
+| Resolver conflitos       | Editar arquivos e `git add`     | Editar arquivos e `git add`       |
+| Continuar operação       | `git commit`                   | `git rebase --continue`           |
+| Enviar alterações        | `git push origin main`          | `git push origin feature-branch --force` |
+</div>
+
+---
+
+</details>
+
+<details align="left">
+  <summary color="#FFBD59">Trabalho terceiro bimestre de Gestão de qualidade de Software...</summary> <br>
+
+   - [Branches no Git - <a href="https://shields.io/">Rebase</a><br>](https://git-scm.com/book/pt-br/v2/Branches-no-Git-Rebase)
+   - [Tutorial Git - <a href="https://shields.io/">Merge</a><br>](https://www.atlassian.com/br/git/tutorials/using-branches/git-merge)
+   - [Tutorial Git - <a href="https://shields.io/">Rebase</a><br>](https://www.atlassian.com/br/git/tutorials/rewriting-history/git-rebase)
+</details>
