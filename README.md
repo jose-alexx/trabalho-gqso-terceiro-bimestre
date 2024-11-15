@@ -6,31 +6,32 @@
     <img align="center" src="https://raw.githubusercontent.com/gist/jose-alexx/46db7915f5fcea4e0a93a27e3879dbff/raw/2e041a4a617fc224827786d5a57d11dd49391af7/apresentacao-merge-rebase.svg">
   </a> 
 
+<br> <br>
 
 <details align="left">
-  <summary color="#FFBD59">O que é Merge?</summary> <br>
+  <summary color="#FFBD59">O que é Merge?</summary>
 
-O **merge** combina as mudanças de uma branch em outra, criando um **commit de merge** que une os históricos das branches. Ele preserva o histórico completo de ambas as branches.
+  - O **merge** combina as mudanças de uma branch em outra, criando um **commit de merge** que une os históricos das branches. Ele preserva o histórico completo de ambas as branches.
 
-```plaintext
-main:     A --- B --- M
+  - ```plaintext
+  main:     A --- B --- M
                   \     
-feature-branch:     C --- D
-```
+  feature-branch:     C --- D
+  ```
 </details>
 
 ---
 
 <details align="left">
-  <summary color="#FFBD59">O que é Rebase?</summary> <br>
+  <summary color="#FFBD59">O que é Rebase?</summary>
 
-  O **rebase** reaplica os commits de uma branch no topo de outra, criando um histórico linear. Ele reescreve os commits da branch atual.
+  - O **rebase** reaplica os commits de uma branch no topo de outra, criando um histórico linear. Ele reescreve os commits da branch atual.
 
-```plaintext
-main:     A --- B
+  - ```plaintext
+  main:     A --- B
                 \
-feature-branch:   C --- D
-```
+  feature-branch:   C --- D
+  ```
 </details>
 
 ---
