@@ -1,3 +1,24 @@
+# Git Merge e Rebase
+
+Este documento explica as diferenças entre os comandos **merge** e **rebase** no Git, como eles funcionam e fornece um guia passo a passo para usar cada um.
+
+---
+
+## **O que é Merge?**
+
+O **merge** combina as mudanças de uma branch em outra, criando um **commit de merge** que une os históricos das branches. Ele preserva o histórico completo de ambas as branches.
+
+### Exemplo de Merge:
+```plaintext
+main:     A --- B --- M
+                  \     
+feature:           C --- D
+
+
+
+
+
+
 Trabalho terceiro bimestre de Gestão de qualidade de Software
 
 https://git-scm.com/docs/git-rebase
