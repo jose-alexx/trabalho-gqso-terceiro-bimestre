@@ -1,9 +1,8 @@
 # Git Merge e Rebase
 
-<p align="justify"> O <strong>merge</strong> e o <strong>rebase</strong> são dois comandos do Git usados para combinar mudanças de diferentes ramificações (branches). Ambos têm o mesmo objetivo geral — <strong>integrar alterações</strong> —, mas funcionam de maneiras distintas, resultando em diferentes históricos de commits. </p>
+<p align="justify"> O <a href="https://git-scm.com/docs/git-merge"><strong><code>merge</code></strong></a> e o <a href="https://git-scm.com/docs/git-rebase"><strong><code>rebase</code></strong></a> são dois comandos do Git usados para combinar mudanças de diferentes ramificações (<a href="https://git-scm.com/book/pt-br/v2/Branches-no-Git-Branches-em-poucas-palavras">branches</a>). Ambos têm o mesmo objetivo geral — <strong>integrar alterações</strong> —, mas funcionam de maneiras distintas, resultando em diferentes históricos de commits. </p>
 
----
-<br>
+--- 
 
  <a href="https://github.com/jose-alexx">
     <img align="center" src="https://raw.githubusercontent.com/gist/jose-alexx/46db7915f5fcea4e0a93a27e3879dbff/raw/2e041a4a617fc224827786d5a57d11dd49391af7/apresentacao-merge-rebase.svg">
@@ -37,7 +36,6 @@ feature:           C --- D
 
 Trabalho terceiro bimestre de Gestão de qualidade de Software
 
-(https://git-scm.com/docs/git-merge)
 https://git-scm.com/book/pt-br/v2/Branches-no-Git-Rebase
 https://www.atlassian.com/br/git/tutorials/using-branches/git-merge#:~:text=Como%20funciona&text=Nestes%20cen%C3%A1rios%2C%20o%20git%20merge,sequ%C3%AAncia%20de%20merge%20commit%20enfileirada.
 https://www.atlassian.com/br/git/tutorials/rewriting-history/git-rebase
