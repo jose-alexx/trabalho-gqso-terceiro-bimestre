@@ -1,7 +1,6 @@
 # Git Merge e Rebase
-<div style="text-align: justify;">
-O [**merge**](https://git-scm.com/docs/git-merge) e o [**rebase**](https://git-scm.com/docs/git-rebase) são dois comandos do Git usados para combinar mudanças de diferentes ramificações (branches). Ambos têm o mesmo objetivo geral — **integrar alterações** —, mas funcionam de maneiras distintas, resultando em diferentes históricos de commits.
-</div>
+
+<p align="justify"> O <strong>merge</strong> e o <strong>rebase</strong> são dois comandos do Git usados para combinar mudanças de diferentes ramificações (branches). Ambos têm o mesmo objetivo geral — <strong>integrar alterações</strong> —, mas funcionam de maneiras distintas, resultando em diferentes históricos de commits. </p>
 
 ---
 <br>
@@ -9,6 +8,18 @@ O [**merge**](https://git-scm.com/docs/git-merge) e o [**rebase**](https://git-s
  <a href="https://github.com/jose-alexx">
     <img align="center" src="https://raw.githubusercontent.com/gist/jose-alexx/46db7915f5fcea4e0a93a27e3879dbff/raw/2e041a4a617fc224827786d5a57d11dd49391af7/apresentacao-merge-rebase.svg">
   </a> 
+
+<ul>
+  <li><strong>Merge:</strong> Cria um <em>commit de merge</em> que une os históricos das branches.</li>
+  <li><strong>Rebase:</strong> Reescreve o histórico, reaplicando os commits no topo de outra branch.</li>
+</ul>
+
+<p align="justify">
+Ao decidir entre usar <strong>merge</strong> ou <strong>rebase</strong>, considere o fluxo de trabalho do projeto e as preferências de histórico. Por exemplo, o <code>merge</code> é ideal para trabalho em equipe, enquanto o <code>rebase</code> é ótimo para um histórico mais limpo.
+</p>
+
+
+
 
 ## **O que é Merge?**
 
@@ -26,7 +37,7 @@ feature:           C --- D
 
 Trabalho terceiro bimestre de Gestão de qualidade de Software
 
-
+(https://git-scm.com/docs/git-merge)
 https://git-scm.com/book/pt-br/v2/Branches-no-Git-Rebase
 https://www.atlassian.com/br/git/tutorials/using-branches/git-merge#:~:text=Como%20funciona&text=Nestes%20cen%C3%A1rios%2C%20o%20git%20merge,sequ%C3%AAncia%20de%20merge%20commit%20enfileirada.
 https://www.atlassian.com/br/git/tutorials/rewriting-history/git-rebase
