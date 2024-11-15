@@ -1,6 +1,6 @@
 # Git Merge e Rebase
 
-Este documento explica as diferenças entre os comandos **merge** e **rebase** no Git, como eles funcionam e fornece um guia passo a passo para usar cada um.
+O [**merge**](https://git-scm.com/docs/git-merge) e o [**rebase**](https://git-scm.com/docs/git-rebase) são dois comandos do Git usados para combinar mudanças de diferentes ramificações (branches). Ambos têm o mesmo objetivo geral — integrar alterações —, mas funcionam de maneiras distintas, resultando em diferentes históricos de commits.
 
 ---
 
@@ -21,7 +21,7 @@ feature:           C --- D
 
 Trabalho terceiro bimestre de Gestão de qualidade de Software
 
-https://git-scm.com/docs/git-rebase
+
 https://git-scm.com/book/pt-br/v2/Branches-no-Git-Rebase
 https://www.atlassian.com/br/git/tutorials/using-branches/git-merge#:~:text=Como%20funciona&text=Nestes%20cen%C3%A1rios%2C%20o%20git%20merge,sequ%C3%AAncia%20de%20merge%20commit%20enfileirada.
 https://www.atlassian.com/br/git/tutorials/rewriting-history/git-rebase
