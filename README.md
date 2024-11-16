@@ -64,6 +64,8 @@
     </table>
   </div>
 
+  **[⬆ Voltar ao Inicio](#Apresentação:)**
+
   ---
   
 </details>
@@ -93,6 +95,8 @@
   <li><strong>Rebase:</strong> Reescreve o histórico, reaplicando os commits no topo de outra branch.</li>
 </ul>
 
+**[⬆ Voltar ao Inicio](#Apresentação:)**
+
 ---
 
 </details>
@@ -120,6 +124,8 @@ Ao decidir entre usar <strong>merge</strong> ou <strong>rebase</strong>, conside
    - Quer aplicar mudanças da branch base antes de compartilhar seu trabalho.
    - Está trabalhando sozinho ou em branches que ninguém mais usa.
    - Você quer um histórico linear e limpo.
+
+   **[⬆ Voltar ao Inicio](#Apresentação:)**
  
 ---
 
@@ -140,6 +146,8 @@ Ao decidir entre usar <strong>merge</strong> ou <strong>rebase</strong>, conside
 | Enviar alterações        | `git push origin main`          | `git push origin feature-branch --force` |
 </div>
 
+**[⬆ Voltar ao Inicio](#Apresentação:)**
+
 ---
 
 </details>
@@ -150,4 +158,7 @@ Ao decidir entre usar <strong>merge</strong> ou <strong>rebase</strong>, conside
    - [Branches no Git - <a href="https://shields.io/">Rebase</a><br>](https://git-scm.com/book/pt-br/v2/Branches-no-Git-Rebase)
    - [Tutorial Git - <a href="https://shields.io/">Merge</a><br>](https://www.atlassian.com/br/git/tutorials/using-branches/git-merge)
    - [Tutorial Git - <a href="https://shields.io/">Rebase</a><br>](https://www.atlassian.com/br/git/tutorials/rewriting-history/git-rebase)
+
+   **[⬆ Voltar ao Inicio](#Apresentação:)**
+   
 </details>
