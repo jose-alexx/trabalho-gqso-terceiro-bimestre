@@ -157,9 +157,6 @@ Ao decidir entre usar <strong>merge</strong> ou <strong>rebase</strong>, conside
    - [Branches no Git - <a href="https://shields.io/">Rebase</a><br>](https://git-scm.com/book/pt-br/v2/Branches-no-Git-Rebase)
    - [Tutorial Git - <a href="https://shields.io/">Merge</a><br>](https://www.atlassian.com/br/git/tutorials/using-branches/git-merge)
    - [Tutorial Git - <a href="https://shields.io/">Rebase</a><br>](https://www.atlassian.com/br/git/tutorials/rewriting-history/git-rebase)
-
-  **[⬆ Voltar ao Inicio](#inicio)**
+   - **[⬆ Voltar ao Inicio](#inicio)**
    
 </details>
-
-Reavendo erro
