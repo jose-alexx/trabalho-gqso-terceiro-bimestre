@@ -18,7 +18,7 @@
 ## Inicio
 
 <details align="left">
-  <summary color="#FFBD59">Semelhança...</summary>
+  <summary color="#FFBD59">😎 Semelhança...</summary>
  
  <p align="justify">
 
@@ -27,10 +27,9 @@
   <li>Ambos têm o mesmo objetivo geral — <strong>integrar alterações</strong> —, mas funcionam de maneiras distintas, resultando em diferentes históricos de commits.</li>
   <li>Basicamente o git merge e o git rebase servem para a mesma coisa: mesclar alterações de duas branches diferentes.</li>
  </ul>
-
-  **[⬆ Voltar ao Inicio](#inicio)**
-
 </p>
+
+**[⬆ Voltar ao Inicio](#inicio)**
 
 ---
 
