@@ -15,7 +15,7 @@
 
 ---
 
-## Index
+## Inicio
 
 <details align="left">
   <summary color="#FFBD59">Semelhança...</summary>
@@ -28,7 +28,7 @@
   <li>Basicamente o git merge e o git rebase servem para a mesma coisa: mesclar alterações de duas branches diferentes.</li>
  </ul>
 
- **[⬆ Voltar ao Inicio](#Apresentação:)**
+  **[⬆ Voltar ao Inicio](#inicio)**
 
 </p>
 
@@ -64,7 +64,7 @@
     </table>
   </div>
 
-  **[⬆ Voltar ao Inicio](#Apresentação:)**
+  **[⬆ Voltar ao Inicio](#inicio)**
 
   ---
   
@@ -95,7 +95,7 @@
   <li><strong>Rebase:</strong> Reescreve o histórico, reaplicando os commits no topo de outra branch.</li>
 </ul>
 
-**[⬆ Voltar ao Inicio](#Apresentação:)**
+  **[⬆ Voltar ao Inicio](#inicio)**
 
 ---
 
@@ -125,7 +125,7 @@ Ao decidir entre usar <strong>merge</strong> ou <strong>rebase</strong>, conside
    - Está trabalhando sozinho ou em branches que ninguém mais usa.
    - Você quer um histórico linear e limpo.
 
-   **[⬆ Voltar ao Inicio](#Apresentação:)**
+  **[⬆ Voltar ao Inicio](#inicio)**
  
 ---
 
@@ -146,7 +146,7 @@ Ao decidir entre usar <strong>merge</strong> ou <strong>rebase</strong>, conside
 | Enviar alterações        | `git push origin main`          | `git push origin feature-branch --force` |
 </div>
 
-**[⬆ Voltar ao Inicio](#Apresentação:)**
+  **[⬆ Voltar ao Inicio](#inicio)**
 
 ---
 
@@ -159,6 +159,6 @@ Ao decidir entre usar <strong>merge</strong> ou <strong>rebase</strong>, conside
    - [Tutorial Git - <a href="https://shields.io/">Merge</a><br>](https://www.atlassian.com/br/git/tutorials/using-branches/git-merge)
    - [Tutorial Git - <a href="https://shields.io/">Rebase</a><br>](https://www.atlassian.com/br/git/tutorials/rewriting-history/git-rebase)
 
-   **[⬆ Back to Index](#index)**
+  **[⬆ Voltar ao Inicio](#inicio)**
    
 </details>
