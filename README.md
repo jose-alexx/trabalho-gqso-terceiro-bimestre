@@ -70,7 +70,7 @@
 </details>
 
 <details align="left">
-  <summary color="#FFBD59">Antes e depois do Merge e Rebase...</summary> <br>
+  <summary color="#FFBD59">😊 Antes e depois do Merge e Rebase...</summary> <br>
 
  ```plaintext
 
