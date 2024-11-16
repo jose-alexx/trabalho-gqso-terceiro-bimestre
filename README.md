@@ -15,7 +15,7 @@
 
 ---
 
-##Apresentação:
+## Apresentação:
 
 <details align="left">
   <summary color="#FFBD59">Semelhança...</summary>
@@ -159,6 +159,6 @@ Ao decidir entre usar <strong>merge</strong> ou <strong>rebase</strong>, conside
    - [Tutorial Git - <a href="https://shields.io/">Merge</a><br>](https://www.atlassian.com/br/git/tutorials/using-branches/git-merge)
    - [Tutorial Git - <a href="https://shields.io/">Rebase</a><br>](https://www.atlassian.com/br/git/tutorials/rewriting-history/git-rebase)
 
-   **[⬆ Voltar ao Inicio](#Apresentação:)**
+   **[⬆ Back to Index](#index)**
    
 </details>
